@@ -3,6 +3,7 @@ This is a full port of [Jacek Pazera](https://github.com/jackdp), [IniMod](https
 
 # Possible Improvements
 - Most algorithms, especially the comments-related ones, i would say they're can be improved on a lot more
+- If short commands does not work, use its full alternative (for example, `-k=%KeyName%` might not work for some reason, so you'll have to use `--key=%KeyName%` instead (they should work, but just incase)
 
 # Compatibility
 Features | .NET Port  | Original Application
