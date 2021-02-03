@@ -4,6 +4,7 @@ This is a full port of [Jacek Pazera](https://github.com/jackdp), [IniMod](https
 # Possible Improvements
 - Most algorithms, especially the comments-related ones, i would say they're can be improved on a lot more
 - If short commands does not work, use its full alternative (for example, `-k=%KeyName%` might not work for some reason, so you'll have to use `--key=%KeyName%` instead (they should work, but just incase)
+- More error messages
 
 # Compatibility
 Features | .NET Port  | Original Application
@@ -22,6 +23,7 @@ Can Write Section Comment | Yes | Yes
 Can Read Section Comment | Yes | Yes
 Can Write File Comment | Yes | Yes
 Can Remove File Comment | Yes | Yes
-
+||
+Has Error Messages | No (barely any) | Yes
 # Credits
 - [Jacek Pazera](https://github.com/jackdp) - Creating [IniMod](https://github.com/jackdp/IniMod)
